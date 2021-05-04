@@ -12,7 +12,18 @@ Connect through SSH to remote Debian server and update repositories and install 
 sudo apt-get update ; \
 sudo apt-get install -y vim mosh tmux htop git curl wget unzip zip gcc build-essential make
 ```
-
+vim - Editor
+mosh - программа для удаленного подключения с клиентского компьютера к серверу через Интернет. Предоставляет доступ к текстовому терминалу.[3] Mosh аналогичен[4] приложению SSH, но имеет дополнительные функции
+tmux - свободная консольная утилита-мультиплексор, предоставляющая пользователю доступ к нескольким терминалам в рамках одного экрана
+htop - монитор процессов
+git - no comments
+curl - инструмент для передачи данных с сервера или на него
+wget - свободная неинтерактивная консольная программа для загрузки файлов по сети
+unzip - Распаковать
+zip - упаковать
+gcc - компилятор
+build-essential - сборщик
+make - компановщик
 Configure SSH:
 
 ```
@@ -34,6 +45,30 @@ sudo passwd www
 ```
 sudo apt-get install -y zsh tree redis-server nginx zlib1g-dev libbz2-dev libreadline-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev liblzma-dev python3-dev python-imaging python3-lxml libxslt-dev python-libxml2 python-libxslt1 libffi-dev libssl-dev python-dev gnumeric libsqlite3-dev libpq-dev libxml2-dev libxslt1-dev libjpeg-dev libfreetype6-dev libcurl4-openssl-dev supervisor
 ```
+zsh - замена Bash
+tree 
+redis-server 
+nginx 
+zlib1g-dev 
+libbz2-dev 
+libreadline-dev 
+llvm 
+libncurses5-dev 
+libncursesw5-dev 
+xz-utils 
+tk-dev 
+liblzma-dev 
+python3-dev 
+python-imaging - не смог установить
+python3-lxml libxslt-dev python-libxml2 python-libxslt1 
+libffi-dev libssl-dev 
+python-dev 
+gnumeric 
+libsqlite3-dev 
+libpq-dev libxml2-dev libxslt1-dev libjpeg-dev 
+libfreetype6-dev 
+libcurl4-openssl-dev 
+supervisor
 
 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh):
 
